@@ -23,6 +23,7 @@ namespace DialogueSystem
             {
                 Instance = this;
             }
+
             else if (Instance == this)
             {
                 Destroy(gameObject);
