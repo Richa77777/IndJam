@@ -11,6 +11,13 @@ namespace Browser
         [SerializeField] private TextMeshProUGUI _characteristicsText;
         [SerializeField] private TextMeshProUGUI _salaryText;
 
+        private Vacancy _currentVacancy;
+
+        public TextMeshProUGUI JobTitleTextGet => _jobTitleText;
+        public TextMeshProUGUI CharacteristicsTextGet => _characteristicsText;
+        public TextMeshProUGUI SalaryTextGet => _salaryText;
+        public Vacancy CurrentVacancy { get => _currentVacancy; set => _currentVacancy = value; }
+
         public void SetJobTitle(string jobTitle)
         {
             _jobTitleText.text = jobTitle;
