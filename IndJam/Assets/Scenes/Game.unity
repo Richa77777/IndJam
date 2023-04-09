@@ -219,7 +219,7 @@ RectTransform:
   - {fileID: 546962820}
   - {fileID: 319734112}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1118,7 +1118,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &889458366 stripped
 RectTransform:
@@ -1367,6 +1367,104 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364966505}
   m_CullTransparentMesh: 1
+--- !u!1 &1559882920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1559882923}
+  - component: {fileID: 1559882922}
+  - component: {fileID: 1559882921}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1559882921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559882920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5c67a95d628a149908bc4b2b8ebe22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dayValues:
+  - _salary: 0
+    _error: 0
+  - _salary: 3500
+    _error: 150
+  - _salary: 3500
+    _error: 150
+  - _salary: 4000
+    _error: 140
+  - _salary: 4000
+    _error: 140
+  - _salary: 4800
+    _error: 130
+  - _salary: 4800
+    _error: 130
+  - _salary: 5500
+    _error: 120
+  - _salary: 5500
+    _error: 120
+  - _salary: 6200
+    _error: 110
+  - _salary: 6200
+    _error: 110
+  - _salary: 7000
+    _error: 100
+  - _salary: 7000
+    _error: 100
+  - _salary: 7500
+    _error: 95
+  - _salary: 7500
+    _error: 95
+  - _salary: 8500
+    _error: 85
+  - _salary: 8500
+    _error: 85
+  - _salary: 8500
+    _error: 75
+--- !u!114 &1559882922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559882920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f5d38dfec5550f48a12a8780d2661c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _moneyAmount: 0
+  _dayNumber: 1
+  _generalSalary: 3500
+  _maxError: 150
+--- !u!4 &1559882923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559882920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.2360187, y: 2.6838224, z: 0.026961464}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1612547940
 GameObject:
   m_ObjectHideFlags: 0

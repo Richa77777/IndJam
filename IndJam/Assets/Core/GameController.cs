@@ -14,7 +14,7 @@ public class GameController : MonoBehaviour
             Instance = this;
         }
 
-        else if (Instance == this)
+        else if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
         }
